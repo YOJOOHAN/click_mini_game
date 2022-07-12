@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#main {
+  cursor: pointer;
+  user-select: none;
+}
+
+#main:hover {
+  opacity: 0.9;
+}
+
+#main:active {
+  transform:scale(0.95,0.95);
+}
+
+p{
+  font-size: 16px;
+}
+
+footer{
+  font-weight: bold;
+  font-size: 46px;
+}
